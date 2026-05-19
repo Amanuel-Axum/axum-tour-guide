@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axum Digital Tour Guide</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; color: #333; }
+        .header { background: linear-gradient(135deg, #8B0000, #DAA520); color: white; text-align: center; padding: 25px 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .container { padding: 15px; }
+        .welcome-box { background-color: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 20px; text-align: center; }
+        .site-card { background-color: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 25px; overflow: hidden; }
+        .site-title { background-color: #8B0000; color: white; margin: 0; padding: 12px 15px; font-size: 18px; }
+        .site-content { padding: 15px; }
+        .site-text { font-size: 15px; line-height: 1.6; color: #555; text-align: justify; }
+        .audio-btn { display: inline-block; background-color: #DAA520; color: white; padding: 8px 15px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; text-decoration: none; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1 style="margin: 0; font-size: 24px;">🏛️ የአክሱም ዲጂታል የጉብኝት መሪ</h1>
+        <p style="margin: 5px 0 0 0; font-size: 14px;">ጥንታዊቷን ስልጣኔ በቴክኖሎጂ ይለኩ</p>
+    </div>
+
+    <div class="container">
+        <div class="welcome-box">
+            <h2 style="margin: 0; color: #8B0000; font-size: 18px;">እንኳን ወደ አክሱም በደህና መጡ!</h2>
+            <p style="font-size: 14px; color: #666;">የታሪክ፣ የባህል እና የሃይማኖት መገኛ ወደሆነችው ጥንታዊት ከተማ ለመጡ እንግዶች የተዘጋጀ ዲጂታል መመሪያ።</p>
+        </div>
+
+        <div class="site-card">
+            <h3 class="site-title">1. የአክሱም ሐውልቶች (The Stelae of Axum)</h3>
+            <div class="site-content">
+                <p class="site-text">
+                    የአክሱም ሐውልቶች ከክርስቶስ ልደት በፊት በ3ኛው እና 4ኛው ክፍለ ዘመን አካባቢ የተተከሉ የጥንታዊው አክሱም ስልጣኔ እና የኢንጂነሪንግ ጥበብ ምስክሮች ናቸው። ከእነዚህ መካከል ትልቁ የነበረውና የወደቀው ታላቁ ሐውልት (33 ሜትር) ሲሆን፣ አሁን የቆመው ሁለተኛው ረጅም ሐውልት (የንጉሥ እዛና ሐውልት) 24 ሜትር ቁመት አለው። እነዚህ ማማዎች ያለምንም ሲሚንቶ ወይም ማያያዣ ከአንድ ወጥ ድንጋይ የተቀረጹ ድንቆች ናቸው።
+                </p>
+                <button class="audio-btn" onclick="speakText('የአክሱም ሐውልቶች ከክርስቶስ ልደት በፊት በ3ኛው እና 4ኛው ክፍለ ዘመን አካባቢ የተተከሉ የጥንታዊው አክሱም ስልጣኔ ምስክሮች ናቸው።')">🔊 በድምፅ አድምጥ (Audio Guide)</button>
+            </div>
+        </div>
+
+        <div class="site-card">
+            <h3 class="site-title">2. ጥንታውያን የብራና መጻሕፍት (Ancient Manuscripts)</h3>
+            <div class="site-content">
+                <p class="site-text">
+                    በአክሱም ከሚገኙ ታላላቅ ቅርሶች መካከል ከቆዳ ተዘጋጅተው በግዕዝ ቋንቋ የተጻፉ ጥንታውያን የብራና መጻሕፍት ቀዳሚውን ስፍራ ይይዛሉ። በተለይም በዓለም ላይ ካሉ ጥንታዊ ክርስቲያናዊ መጻሕፍት አንዱ የሆነውና በ5ኛው ክፍለ ዘመን አካባቢ የተጻፈው “የአባ ገሪማ ወንጌል” በአክሱም አካባቢ ይገኛል። እነዚህ መጻሕፍት የኢትዮጵያን ጥንታዊ የጽሕፈት፣ የስዕል እና የታሪክ አጠባበቅ ጥበብ ያሳያሉ።
+                </p>
+                <button class="audio-btn" onclick="speakText('በአክሱም ከሚገኙ ታላላቅ ቅርሶች መካከል ከቆዳ ተዘጋጅተው በግዕዝ ቋንቋ የተጻፉ ጥንታውያን የብራና መጻሕፍት ቀዳሚውን ስፍራ ይይዛሉ።')">🔊 በድምፅ አድምጥ (Audio Guide)</button>
+            </div>
+        </div>
+
+        <div class="site-card">
+            <h3 class="site-title">3. የቆሮንቶስ/የአክሱም ጽዮን ማርያም (Church of Our Lady Mary of Zion)</h3>
+            <div class="site-content">
+                <p class="site-text">
+                    በ4ኛው ክፍለ ዘመን በነገሥታቱ አብርሃ ወአጽብሃ ዘመን የተመሰረተችው የአክሱም ጽዮን ማርያም ቤተክርስቲያን በኢትዮጵያ የመጀመሪያዋ ቤተክርስቲያን ናት። ይህ ታሪካዊ ስፍራ ሙሴ ከእግዚአብሔር የተቀበላቸው አስራቱ ቃላት የተቀረጹበት የኪዳኑ ታቦት (Ark of the Covenant) የሚገኝበት ቅዱስ ቦታ ተደርጎ በዓለም አቀፍ ደረጃ ይታወቃል። የጥንቱ የነገሥታት ዘውድ መጫኛ ስፍራም እዚህ ይገኛል።
+                </p>
+                <button class="audio-btn" onclick="speakText('በአራተኛው ክፍለ ዘመን በነገሥታቱ አብርሃ ወአጽብሃ ዘመን የተመሰረተችው የአክሱም ጽዮን ማርያም ቤተክርስቲያን በኢትዮጵያ የመጀመሪያዋ ቤተክርስቲያን ናት።')">🔊 በድምፅ አድምጥ (Audio Guide)</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function speakText(text) {
+            if ('speechSynthesis' in window) {
+                var speech = new SpeechSynthesisUtterance();
+                speech.text = text;
+                speech.lang = 'am-ET'; // ለአማርኛ ድምፅ ፍንጭ መስጠት
+                speech.rate = 0.9;     // ፍጥነቱን ትንሽ ቀነስ ማድረግ
+                window.speechSynthesis.speak(speech);
+            } else {
+                alert("ይቅርታ፣ ስልክዎ የድምፅ ንባብ ባህሪን አይደግፍም።");
+            }
+        }
+    </script>
+</body>
+</html>
